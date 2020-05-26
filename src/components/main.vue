@@ -1,14 +1,19 @@
 <template>
 	<div id="global">
 		<router-link to="/card">
-			<button>卡片</button>
+			<button>{{card}}</button>
 		</router-link>
 	</div>
 </template>
 
 <script>
 	export default {
-		name: "main"
+		name: "main",
+		data() {
+			return {
+				card: "卡片"
+			}
+		}
 	}
 </script>
 
@@ -19,7 +24,7 @@
 	}
 
 	#global {
-		button{
+		button {
 			border: none;
 			border-radius: 4px;
 			background: #42b983;
