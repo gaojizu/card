@@ -11,7 +11,7 @@
 		name: "main",
 		data() {
 			return {
-				card: "卡片"
+				card: "卡片" //这是卡片
 			}
 		}
 	}
