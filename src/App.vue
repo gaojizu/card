@@ -10,6 +10,7 @@
 		name: 'App',
 		data() {
 			return {
+				//新加了app的注释
 				name : ''
 			}
 		}
