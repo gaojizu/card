@@ -11,6 +11,7 @@
 		name: "main",
 		data() {
 			return {
+				//新加注释
 				card: "卡片" //这是卡片
 			}
 		}
