@@ -11,7 +11,6 @@
 		data() {
 			return {
 				//新加了app的注释
-				//wlm新加注释
 				name : ''
 			}
 		}
